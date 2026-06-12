@@ -1,0 +1,8 @@
+# Rime user dictionary
+#@/db_name	luna_pinyin
+#@/db_type	userdb
+#@/rime_version	1.11.2
+#@/tick	3
+#@/user_id	ASUS_TXAir
+an zhuang 	安裝	c=2 d=1.99005 t=3
+xiao 	小	c=1 d=0.995012 t=3

@@ -62,6 +62,7 @@ switches:
 # 输入引擎
 engine:
   processors:
+    - lua_processor@*auto_arrow                # - > 自动转 ->
     - lua_processor@*select_character          # 以词定字
     - ascii_composer
     - recognizer
@@ -389,6 +390,7 @@ speller:
   delimiter: " '"  # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
   algebra:
     - erase/^xx$/
+    - erase/^n$/
     - derive/^([jqxy])u$/$1v/
     - derive/^([aoe])([ioun])$/$1$1$2/
     - xform/^([aoe])(ng)?$/$1$1$2/
